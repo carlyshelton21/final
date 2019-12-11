@@ -1,0 +1,154 @@
+body{
+	margin: 0px;
+    background-color: black;
+	padding-top: 10px;
+}
+#logo{
+    position: absolute;
+    left: 150px;
+}
+#News{
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    font-family: 'Tomorrow', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+#Contact{
+    position: absolute;
+	top: 10px;
+	right: 45px;
+	font-family: 'Tomorrow', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+}
+.gif{
+    position: absolute;
+    top:150px;
+    left:400px;
+}
+
+#info{
+    position: absolute;
+    top:650px;
+    left: 200px;
+    color:#ffffff;
+    font-family: 'Revalia', cursive;
+    font-size: 60px;
+}
+
+#info2{
+    position: absolute;
+    left:250px;
+    top: 700px;
+    color: white;
+    font-size:40px;
+    font-family: helvetica;
+}
+
+#bio{
+    position: absolute;
+    top:1100px;
+    left: 200px;
+    color:#ffffff;
+    font-family: 'Revalia', cursive;
+    font-size: 60px;
+}
+
+#bio-text{
+    position: absolute;
+    top:1170px;
+    left: 250px;
+    color: white;
+    font-size: 36px;
+    font-family: helvetica;
+}
+
+#reference{
+    position: absolute;
+    top:1700px;
+    left: 200px;
+    color:#ffffff;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 36px;
+}
+
+#L1{
+    position: absolute;
+    top:1760px;
+    left: 200px;
+    color:#ffffff;
+    font-family: helvetica;
+    font-size: 30px;
+}
+
+#L2{
+    position: absolute;
+    top: 1800px;
+    left: 200px;
+    color:#ffffff;
+    font-family: helvetica;
+    font-size: 30px;
+}
+a:visited {
+  color: #ff0000;
+}
+a:hover, a:active, a:focus {
+  color:#ffffff;
+}
+
+.gif {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}

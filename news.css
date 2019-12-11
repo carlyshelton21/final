@@ -1,0 +1,274 @@
+body{
+	margin: 0px;
+    background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#logo{
+    position: absolute;
+    left: 150px;
+}
+#News{
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    font-family: 'Tomorrow', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+#Contact{
+    position: absolute;
+	top: 10px;
+	right: 45px;
+	font-family: 'Tomorrow', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+}
+
+#Upcoming{
+    position: absolute;
+    top:150px;
+    left: 200px;
+    color:#ffffff;
+    font-family: 'Revalia', cursive;
+    font-size: 60px;
+}
+
+#mike_diana{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right:350px;
+    top:280px;
+    font-size:40px;
+}
+
+#date{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right:420px;
+    top:340px;
+    font-size:40px;
+}
+
+#location{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 365px;
+    top:400px;
+    font-size:40px;
+}
+
+#time{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 520px;
+    top:460px;
+    font-size:40px;
+}
+
+#mike_pic{
+    position: absolute;
+    top:280px;
+    left:300px;
+}
+
+#ruby_pic{
+    position: absolute;
+    top:800px;
+    left:300px;
+}
+
+#ruby{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 300px;
+    top: 800px;
+    font-size:40px;
+}
+
+#date2{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 245px;
+    top: 860px;
+    font-size:40px;
+}
+
+#location2{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 410px;
+    top: 920px;
+    font-size:40px;
+}
+
+#time2{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 590px;
+    top: 985px;
+    font-size:40px;
+}
+
+#Past{
+    position: absolute;
+    top:1800px;
+    left: 200px;
+    color:#ffffff;
+    font-family: 'Revalia', cursive;
+    font-size: 60px;
+}
+
+#rcumb_pic{
+    position: absolute;
+    top:1940px;
+    left:300px;
+}
+
+#robert{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 380px;
+    top: 1940px;
+    font-size:40px;
+}
+
+#date3{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 525px;
+    top: 2000px;
+    font-size:40px;
+}
+
+#location3{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 490px;
+    top: 2060px;
+    font-size:40px;
+}
+
+#time3{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 600px;
+    top: 2120px;
+    font-size:40px;
+}
+
+#joan_pic{
+    position: absolute;
+    top:2800px;
+    left:300px;
+}
+
+#joan{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 350px;
+    top: 2800px;
+    font-size:40px;
+}
+
+#date4{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 570px;
+    top: 2860px;
+    font-size:40px;
+}
+
+#location4{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 535px;
+    top: 2920px;
+    font-size:40px;
+}
+
+#time4{
+    position: absolute;
+    font-family: helvetica;
+    color: white;
+    right: 660px;
+    top: 2980px;
+    font-size:40px;
+}
+
+a:visited {
+  color: #ff0000;
+}
+a:hover, a:active, a:focus {
+  color: white;
+}
+
+.pic_animation {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
